@@ -8,6 +8,8 @@ const links = [
   { href: '#testimonios', label: 'Clientes' },
 ]
 
+const logoUrl = 'https://insuser.mx/images/xlogo-insuser.jpg.pagespeed.ic.NOD3AKGdyr.webp'
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
@@ -27,12 +29,7 @@ export default function Navbar() {
   return (
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <a href="#" className={styles.logo} onClick={e => handleLink(e, '#inicio')}>
-        <div className={styles.logoIcon}>
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-          </svg>
-        </div>
-        <span className={styles.logoText}>Apex <span>Contadores</span></span>
+        <img className={styles.logoImg} src={logoUrl} alt="International Support Services, S.C." />
       </a>
 
       <ul className={`${styles.links} ${open ? styles.open : ''}`}>

@@ -2,29 +2,29 @@ import styles from './Testimonials.module.css'
 
 const testimonials = [
   {
-    quote: 'Apex Contadores transformó por completo nuestra estrategia fiscal. En el primer año ahorramos más de $3.2M en impuestos de forma completamente legal. Su equipo es excepcional.',
-    name: 'María Rodríguez',
-    role: 'CEO — Grupo Industrial del Norte',
-    initials: 'MR',
+    quote: 'International Support Services nos ayudó a optimizar significativamente nuestra estructura fiscal. Su conocimiento integral de impuestos nacionales e internacionales fue clave en nuestro crecimiento estratégico.',
+    name: 'Gerente Financiero',
+    role: 'Empresa Multinacional de México',
+    initials: 'EX',
     featured: true,
   },
   {
-    quote: 'Profesionalismo de otro nivel. Nos resolvieron una auditoría del SAT en tiempo récord y sin una sola observación pendiente.',
-    name: 'Carlos López',
-    role: 'Dir. Finanzas — TechMX',
-    initials: 'CL',
+    quote: 'Profesionalismo de clase mundial. Manejaron nuestra auditoría con un nivel de detalle y precisión excepcional.',
+    name: 'Director de Operaciones',
+    role: 'Grupo Industrial',
+    initials: 'DO',
   },
   {
-    quote: 'Llevan nuestra contabilidad desde hace 8 años. La tranquilidad que dan no tiene precio. Recomendados totalmente.',
-    name: 'Ana García',
-    role: 'Fundadora — Restaurantes Doña Ana',
-    initials: 'AG',
+    quote: 'Más de 15 años trabajando juntos. Confiamos en su capacidad de resolver los problemas contables más complejos.',
+    name: 'CEO',
+    role: 'Empresa Establecida',
+    initials: 'CE',
   },
   {
-    quote: 'Su plataforma digital para revisar estados financieros en tiempo real cambió las reglas del juego para nosotros.',
-    name: 'Jorge Pérez',
-    role: 'COO — Constructora Pérez Hnos.',
-    initials: 'JP',
+    quote: 'Su asesoría en estímulos fiscales nos permitió acceder a beneficios que no sabíamos que existían para nuestra empresa.',
+    name: 'Director Administrativo',
+    role: 'PyME en Crecimiento',
+    initials: 'DA',
   },
 ]
 

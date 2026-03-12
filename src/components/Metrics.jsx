@@ -2,10 +2,10 @@ import { useEffect, useRef } from 'react'
 import styles from './Metrics.module.css'
 
 const metrics = [
-  { value: 850, suffix: '+', label: 'Clientes activos' },
-  { value: 98, suffix: '%', label: 'Tasa de retención' },
-  { value: 2400, prefix: '$', suffix: 'M', label: 'Patrimonio gestionado' },
-  { value: 15, suffix: 'K', label: 'Declaraciones anuales' },
+  { value: 30, suffix: '+', label: 'Años de experiencia' },
+  { value: 20, suffix: '+', label: 'Empresas grandes' },
+  { value: 40, suffix: '+', label: 'Años de trayectoria fundador' },
+  { value: 2008, suffix: '', label: 'Año de fundación' },
 ]
 
 function Counter({ target }) {
@@ -48,7 +48,6 @@ export default function Metrics() {
           {metrics.map((m, i) => (
             <div key={i} className={`${styles.card} reveal reveal-d${i + 1}`}>
               <div className={styles.value}>
-                {m.prefix && <span>{m.prefix}</span>}
                 <Counter target={m.value} />
                 <span className={styles.suffix}>{m.suffix}</span>
               </div>
